@@ -1,0 +1,27 @@
+{
+  "name": "pdf_converter",
+  "version": "1.0.0",
+  "description": "converts PDFs to PNGs and saves to azure blob storage",
+  "main": "file-handler.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon file-handler.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "co": "^4.6.0",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "fs-extra": "^6.0.1",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
